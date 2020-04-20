@@ -53,7 +53,7 @@ yint_max = max (yint)
 
 plt.axis([a-1, b+1, (yint_min-10), (yint_max+20)])
 plt.fill_between(xint, 0, yint, facecolor='lightblue', alpha=0.9)
-plt.text(0.5 * (a + b),35,"$\int_a^b f(x)dx$", horizontalalignment='center', fontsize=30);
+plt.text(0.5 * (a + b),35,"$\int_a^b f(x)dx$", horizontalalignment='center', fontsize=30) #scritta per integrale su grafico
 
 # from __future__ import print_function #anticipa funzione print di python 3 su 2.x
 
