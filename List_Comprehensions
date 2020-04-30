@@ -1,0 +1,17 @@
+# Volendo ottenere a partire da una lista di numeri il quadrato degli stessi, la logica 'for' porterebbe a scrivere:
+
+numbers = range(10)
+
+squares = []
+
+for number in numbers:
+    square = number**2
+    squares.append(square)
+    
+# ottenendo così un output quale: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Tale lista è ad ogni modo ottenibile usando le "list comprehensions":
+
+squares2 = [number**2 for number in numbers]
+
+# ottenendo in una sola riga il medesimo risultato (con tempi più brevi), squares2 = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
